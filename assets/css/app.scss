@@ -1,0 +1,27 @@
+@import "~bootstrap/scss/bootstrap";
+$body-bg : white;
+$body-color: blue;
+$theme-colors: (
+        "primary" : white,
+        "secondary" : grey,
+        "background" : blue,
+);
+$navbar-brand-font-size : 2em;
+
+body {
+    background-color: lightgray;
+}
+form {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn {
+    background-color: #565656;
+    opacity: 80%;
+}
+.btn:hover{
+    opacity: 50%;
+}
+@import "~bootstrap/scss/bootstrap";
